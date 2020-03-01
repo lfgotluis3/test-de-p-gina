@@ -1,0 +1,62 @@
+/*body
+    {
+        background-image: linear-gradient(rgba(25,25,25,.2), rgba(0,0,0,.8) ),
+        url("../img/fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }*/
+
+button:hover
+    {
+        cursor: pointer;
+    }
+
+/*.navbar
+    {
+        background: #009688;
+        border: 3px solid #009688;
+        cursor: pointer;
+    }
+
+.data-wrapper
+    {
+        width: 100%;
+        padding: 5px;
+    }
+
+@media only screen and (min-width: 991px)
+    {
+        .data-wrapper
+            {
+                width: 75%;
+            }
+    }*/
+
+form
+    {
+        margin: 5px;
+        background: linear-gradient(45deg, #ffffff, #4CAF50);
+        border: 3px solid #009688;
+        /*font-size: 10px;*/
+        /*padding: 5px;*/
+        cursor: pointer;
+    }
+
+.form-group input
+    {
+        font-size: 15px;
+        justify-content: flex-end;
+    }
+
+#submit-button
+    {
+        border-radius: 0;
+    }
+
+.card
+    {
+        margin: 5px;
+        background: linear-gradient(45deg, #ffffff, #4CAF50);
+        border: 3px solid  #00a93461;
+    }

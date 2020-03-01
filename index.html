@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Full-Stack-Js-Developmen</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/luis_fernando.css">
+    </head>
+    <body>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form name="informacion" id="formulario" class="needs-validation">
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="project-name">Nombre del proyecto</label>
+                                    <input pattern="[A-Za-z-123]{3,}" class="form-control" id="project-name" maxlength="40" title="solo caracteres  permitidos" placeholder="Ingresa el nombre de tú proyecto" required>
+                                    <div class="valid-feedback">
+                                        Muy Bien!
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="customer-name">Nombre del cliente</label>
+                                    <input type="text" class="form-control" id="customer-name" placeholder="Ingresa tú nombre y apellido" required>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <label for="project-description">Descripción del proyecto</label>
+                                    <textarea pattern="[A-Za-z-123]{5,}" class="form-control" id="project-description" maxlength="120" title="solo caracteres  permitidos" placeholder="Describe tú proyecto pj. si es una página, un formulario, una galeria, una tarjeta de presentación, etc." required></textarea>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <label for="customer-mail">Correo Electrónico</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                        </div>
+                                        <input type="email" class="form-control" id="customer-mail"
+                                            aria-describedby="inputGroupPrepend" placeholder="Ingresa tu email de contacto" required>
+                                        <div class="invalid-feedback">
+                                            Please choose a username.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="customer-phone">Número de teléfono</label>
+                                <input pattern="[0-9]{8,}" class="form-control" id="customer-phone" maxlength="10" title="solo caracteres  permitidos" placeholder="Ingresa tu número de contacto" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <input id="button" class="btn btn-primary bg-success" type="submit">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="submit-button" class="btn btn-secondary" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand text-success" href="profile.html">Luis Fernando Rodríguez Ponce <br>Lfgotluis3 </a>
+            <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-success"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-dark" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active text-warning" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link text-success" href="profile.html">Perfil</a>
+                    <a class="nav-item nav-link text-success" href="info.html">Información </a>
+                    <a class="nav-item nav-link text-success" href="submitform.html">Envía  tu propuesta </a>
+                    <a class="nav-item nav-link text-success" href="https://www.facebook.com/agferFO" target="_blank">Agfer F.O. </a>
+                    <a class="nav-item nav-link text-success" href="https://www.arduino.cc" target="_blank" tabindex="-1" aria-disabled="false">Arduino</a>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-12 front">
+                <img src="img/background.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="perfil">
+                        <h3>FULL-STACK-<span>JAVASCRIPT-DEVELOPMEN</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100">&nbsp</div>
+            <div class="w-100">&nbsp</div>
+            <div class="w-100">&nbsp</div>
+            <div class="w-100">&nbsp</div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="perfil">
+                        <img src="img/main-pick.jpg" alt="Profile image">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="pefil">
+                        <div class="w-100">&nbsp</div>
+                        <div class="w-100">&nbsp</div>
+                        <div class="w-100">&nbsp</div>
+
+                        <a href="https://outlook.live.com/mail/inbox" target="_blank"><h6 class="text-warning">lfgotluis3@outlook.com</h6></a>
+                        <div class="w-100">&nbsp</div>
+
+                        <li>55 3429 6773</li>
+                        <div class="w-100">&nbsp</div>
+
+                        <li>Ciudad de México</li>
+                        <div class="w-100">&nbsp</div>
+
+                        <li>Necesitas una pagina personal o para tu negocio</li>
+                        <div class="w-100">&nbsp</div>
+                        <div class="w-100">&nbsp</div>
+                        
+                        <!-- Button trigger modal -->
+                        <button id="submit-button" type="button" class="btn btn-primary bg-success" data-toggle="modal"
+                            data-target="#staticBackdrop">
+                            Envia tu propuesta
+                        </button>
+
+                        
+                    </div>
+                    <div class="w-100">&nbsp</div>
+
+                    <div class="social-network-wrapper">
+                        <a href="https://www.facebook.com/profile.php?id=100008356838644" target="_blank"><div class="social-icon facebook"></div></a>
+                        <a href="https://twitter.com/lfgotluis3" target="_blank"><div class="social-icon twiter"></div></a>
+                        <a href="https://create.arduino.cc/projecthub/lfgotluis3" target="_blank"><div class="social-icon arduino"></div></a>
+                        <a href="https://github.com/lfgotluis3" target="_blank"><div class="social-icon git"></div></a>
+                        <a href="https://www.youtube.com/channel/UCVR8Cu9SWoEUTJ5BKocehVQ?view_as=subscriber" target="_blank"><div class="social-icon youtube"></div></a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="w-100">&nbsp</div>
+            <div class="w-100">&nbsp</div>
+            <div class="w-100">&nbsp</div>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/descarga.png" class="d-block w-100" alt="Profileimage">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/nodejs.png" class="d-block w-100" alt="Profile image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mongoose.png" class="d-block w-100" alt="Profile image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/github1.png" class="d-block w-100" alt="Profile image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/boots.jpg" class="d-block w-100" alt="Profile image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jquery.jpg" class="d-block w-100" alt="Profile image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/js.jpg" class="d-block w-100" alt="Profile image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/google.webp" class="d-block w-100" alt="Profile image">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 p-3 col-md-6 col-lg-4 text-justify">
+                    <h4>FULL STACK <span>JAVASCRIPT</span></h4>
+                    <p>JavaScript ha existido por más de 20 años. Es el lenguaje de programación dominante en el desarrollo web.</p>
+
+                    <p>Al principio, JavaScript era un idioma para el cliente web (navegador). Luego vino la capacidad de usar JavaScript en el servidor web (con Node.js).</p>
+
+                    <p>Hoy en día, la palabra de moda más popular es "Full Stack JavaScript".</p>
+
+                    <p>La idea de "Full Stack JavaScript" es que todo el software en una aplicación web, tanto del lado del cliente como del servidor, debe escribirse solo con JavaScript.</p>
+                </div>
+                <div class="col-12 p-3 col-md-6 col-lg-4 text-justify">
+                    <h4>FULL STACK <span>JAVASCRIPT DEVELOPER</span></h4>
+                    <p>Un desarrollador de JavaScript de pila completa es una persona que puede desarrollar software de cliente y servidor.</p>
+
+                    <p>Además de dominar HTML y CSS, también sabe cómo:</p>
+                    <ul>
+                        <li>Programar un navegador (como usar JavaScript, jQuery, Angular o Vue)</li>
+                        <li>Programa un servidor (como usar Node.js)</li>
+                        <li>Programar una base de datos (como usar MongoDB)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-100">&nbsp</div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="w-100">&nbsp</div>
+                    <div class="w-100">&nbsp</div>
+
+                    <div class="arduino-wrapper text-justify">
+                        <h4><span>ARDUINO</span></h4>
+                        <h5>¿Qué es <span>Arduino?</span></h5>
+                        <p>Arduino es una plataforma electrónica de código abierto basada en hardware y software fáciles de usar. Las placas Arduino pueden leer entradas (luz en un sensor, un dedo en un botón o un mensaje de Twitter) y convertirla en una salida:</p>
+                        <ul>
+                            <li>activar un motor</li>
+                            <li> encender un LED</li>
+                            <li>publicar algo en línea</li>
+                        </ul>
+                        <p>Puede decirle a su tarjeta qué debe hacer enviando un conjunto de instrucciones al microcontrolador de la tarjeta. Para hacerlo, utiliza el lenguaje de programación Arduino (basado en Wiring ) y el software Arduino (IDE), basado en el procesamiento.</p>
+
+                        <p>A lo largo de los años, Arduino ha sido el cerebro de miles de proyectos, desde objetos cotidianos hasta instrumentos científicos complejos. Una comunidad mundial de creadores (estudiantes, aficionados, artistas, programadores y profesionales) se ha reunido en torno a esta plataforma de código abierto, sus contribuciones han sumado una cantidad increíble de conocimientos accesibles que pueden ser de gran ayuda para principiantes y expertos por igual.</p>
+
+                        <p>Arduino nació en el Instituto de Diseño de Interacción Ivrea como una herramienta fácil para la creación rápida de prototipos, dirigida a estudiantes sin experiencia en electrónica y programación. Tan pronto como llegó a una comunidad más amplia, la placa Arduino comenzó a cambiar para adaptarse a las nuevas necesidades y desafíos, diferenciando su oferta de tablas simples de 8 bits a productos para aplicaciones IoT, impresión portátil, impresión 3D y entornos integrados.</p>
+
+                        <p>Todas las placas Arduino son completamente de código abierto, lo que permite a los usuarios construirlas de forma independiente y, eventualmente, adaptarlas a sus necesidades particulares. El software también es de código abierto y está creciendo a través de las contribuciones de los usuarios de todo el mundo.</p>
+                    <div class="col-12">
+                        <img src="img/ardu.png" alt="Profile image" class="ardu w-100 m-3">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/uino.jpg" alt="Profile image" class="w-100 m-3">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/ardui.png" alt="Profile image" class="w-100 m-3">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/arduino.jpg" alt="Profile-image" class="w-100 m-3">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/brazo.jpg" alt="Profile-image" class="w-100 m-3">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/principal.jpg" alt="Profile image" class="w-100 m-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/validacion.js"></script>
+    </body>
+</html>

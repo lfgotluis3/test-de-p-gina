@@ -1,0 +1,189 @@
+.navbar
+    {
+        background-color: #2a4034;
+        background-size: cover;
+    }
+
+.navbar-brand
+    {
+        font-family: fantasy;
+        font-size: 13px;
+        color: white;
+        text-align: left;
+    }
+
+.navbar-nav
+    {
+        font-family: Helvetica;
+    }
+
+.front img
+    {
+        width: 100%;
+        border: 0px solid turquoise;
+        background-size: cover;
+    }
+
+.perfil h3
+    {
+        padding-top: 45px;
+        text-align: center;
+        margin-top: 10%;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+    }
+
+.perfil h3 span
+    {
+        color: green;
+    }
+
+.perfil img
+    {
+        width: 100%;
+        border: 1px solid turquoise;
+    }
+
+.btn-primary:hover
+    {
+        cursor: pointer;
+    }
+
+.col-7 li
+    {
+        font-family: Helvetica;
+        font-size: 20px;
+        text-align: center;
+    }
+
+button
+    {
+        width: 100%;
+    }
+
+button:hover
+    {
+        cursor: pointer;
+    }
+
+.social-network-wrapper
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+.social-network-wrapper .social-icon
+    {
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+.social-network-wrapper .social-icon.facebook
+    {
+        background-image: url("../img/facebook.png");
+    }
+
+.social-network-wrapper .social-icon.twiter
+    {
+        background-image: url("../img/twiter.png");
+    }
+
+.social-network-wrapper .social-icon.arduino
+    {
+        background-image: url("../img/arduino.png");
+    }
+
+.social-network-wrapper .social-icon.git
+    {
+        background-image: url("../img/github.png");
+    }
+
+.social-network-wrapper .social-icon.youtube
+    {
+        background-image: url("../img/youtube.png");
+    }
+
+.social-network-wrapper .social-icon:not(:first-of-type)
+    {
+        margin-left: 5px;
+    }
+
+        /* width */::-webkit-scrollbar{    width: 5px;
+        }
+
+        /* Track ::-webkit-scrollbar-track {
+          background: #9E9E9E;
+        }*/
+
+        /*Handle*/
+        ::-webkit-scrollbar-thumb {
+          background: #17c71ed6;
+        }
+
+        /* Handle on hover*/
+        ::-webkit-scrollbar-thumb:hover {
+          background: #8BC34A;
+        }
+
+h4
+    {
+        font-family: fantasy;
+        text-align: center;
+    }
+
+h4 span
+    {
+        color: green;
+    }
+
+.p
+    {
+        text-align: center;
+        font-family: Arial;
+        justify-content: flex-end;
+        font-family: Arial;
+    }
+
+h5
+    {
+        font-family: fantasy;
+        text-align: center;
+        font-family: inherit;
+    }
+
+.arduino-wrapper h5 span
+    {
+        color: green;
+    }
+
+/*.arduino-wrapper
+    {
+        max-height: calc(100vh - 40px);
+        overflow: scroll;
+    }*/
+
+@media only screen and (min-width: 760px)
+    {
+        .arduino-wrapper
+            {
+                max-height: calc(100vh - 40px);
+                /*background: linear-gradient(45deg, #00ad16, rgba(6, 138, 144, 0.98));*/
+                overflow: scroll;
+            }
+    }
+/*.arduino-wrapper img
+    {
+        width: 100px;
+        padding: 3px;
+        margin: 10px;
+    }
+
+.arduino-wrapper .ardu
+    {
+        width: 100px;
+    }*/

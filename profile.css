@@ -1,0 +1,233 @@
+/*@media only screen and (min-width: 765px)
+    {
+        body
+            {
+            background-image: linear-gradient(rgba(25,25,25,.2), rgba(0,0,0,.8) ),
+            url("../img/uno.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            }
+    }*/
+
+.list-group-item
+    {
+        margin: 5px;
+        background: linear-gradient(45deg, #4CAF50, #4caf5030);
+        /*background: linear-gradient(45deg, #ffffff, #4CAF50);*/
+        font-family: arial;
+        border: none;
+    }
+
+.list-group-item:first-of-type, .list-group-item:last-of-type
+    {
+        border-radius: 0px;
+    }
+
+.list-group-item.active
+    {
+            background: #4CAF50;
+            color: black;
+    }
+
+.list-group-item:hover
+    {
+        background: rgba(255, 255, 255,  .7);
+        cursor: pointer;
+    }
+
+/*@media only screen and (min-width: 0px)
+    {
+        .list-group-item
+            {
+                background: linear-gradient(45deg, #05fd2463, rgba(6, 138, 144, 0.98));
+                color: rgba(0,0,0,.9);
+            }
+    }
+
+@media only screen and (min-width: 950px)
+    {
+        .list-group-item
+            {
+                background: linear-gradient(45deg, #00ad16, rgba(6, 138, 144, 0.98));
+                color: rgba(0,0,0,.9);
+            }
+    }*/
+
+.card
+    {
+        /*max-height: calc(100vh - 40px);*/
+        /*background: linear-gradient(45deg, #ffffff, #4CAF50);*/
+        font-family: arial;
+        border: none;
+    }
+
+.card img
+    {
+        width: 70%;
+        margin: 50px auto 20px auto;
+        border-radius: 50%;
+    }
+
+.card .card-title
+    {
+        /*background-color: #4CAF50;*/
+        text-align: center;
+    }
+
+.card .card-title span
+    {
+        color: #4CAF50;
+    }
+
+.card h4
+    {
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+.card .dat-title
+    {
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        color: white;
+    }
+
+/*.card .btn-primary
+    {
+        background-color: rgba(10, 206, 206,  .7);
+        border: 1px solid blue;
+    }*/
+
+.social-network-wrapper
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+.social-network-wrapper .social-icon
+    {
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+.social-network-wrapper .social-icon.facebook
+    {
+        background-image: url("../img/facebook.png");
+    }
+
+.social-network-wrapper .social-icon.twiter
+    {
+        background-image: url("../img/twiter.png");
+    }
+
+.social-network-wrapper .social-icon.arduino
+    {
+        background-image: url("../img/arduino.png");
+    }
+
+.social-network-wrapper .social-icon.github
+    {
+        background-image: url("../img/github.png");
+    }
+
+.social-network-wrapper .social-icon.youtube
+    {
+        background-image: url("../img/youtube.png");
+    }
+
+.social-network-wrapper .social-icon:not(:first-of-type)
+    {
+        margin-left: 5px;
+    }
+/*
+/* width */                              ::-webkit-scrollbar
+    {
+        width: 5px;
+    }ss
+
+/* Track */
+::-webkit-scrollbar-track
+    {
+        background: linear-gradient(45deg, #4caf50, rgba(236, 244, 244, 0.98));
+    }
+
+/* Handle */
+::-webkit-scrollbar-thumb
+    {
+        background: linear-gradient(45deg, #4caf50, rgba(236, 244, 244, 0.98));;
+    }
+
+/* Handle on hover*/
+::-webkit-scrollbar-thumb:hover
+    {
+       /*background: #4CAF50;*/
+          background: linear-gradient(45deg, #4caf50, rgba(236, 244, 244, 0.98));
+    }
+
+/*@media only screen and (min-width: 0px)
+    {
+        .card
+            {
+                background: linear-gradient(45deg, #05fd2463, rgba(6, 138, 144, 0.98));
+            }
+    }
+
+@media only screen and (min-width: 950px)
+    {
+        .card
+            {
+                background: linear-gradient(45deg, #00ad16, rgba(6, 138, 144, 0.98));
+            }
+    }*/
+
+.resume-wrapper
+    {
+        /*background: linear-gradient(45deg, #ffffff, #4CAF50);*/
+        border-radius: 5px;
+        height: fit-content;
+        padding: 10px;
+        font-family: Helvetica;
+    }
+
+.section-header
+    {
+        border-left: 5px solid #4CAF50;;
+        height: 55px;
+        background-image: url("../img/temple-icon.png");
+        background-size: 44px;
+        background-repeat: no-repeat;
+        font-size: 2.5rem;
+        color: #090a09;;
+        padding-left: 60px;
+        background-position: 5px 8px;
+    }
+
+.resume-wrapper h6
+    {
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+
+.dat-title
+    {
+        background-color: #4CAF50;
+    }
+
+@media only screen and (min-width: 950px)
+    {
+        .resume-wrapper
+            {
+                max-height: calc(100vh - 40px);
+                /*background: linear-gradient(45deg, #00ad16, rgba(6, 138, 144, 0.98));*/
+                overflow: scroll;
+            }
+    }
